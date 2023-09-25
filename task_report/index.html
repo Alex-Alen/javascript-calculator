@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel= "stylesheet" type= "text/css" href="css/bootstrap.min.css"/>
+    <link rel= "stylesheet" type= "text/css" href="css/mostili.css"/>
+</head>
+<meta charset="utf-8" />
+<title>Alex-Alen Pugatsov TA-21V</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
+<body>
+    <div class="container-fluid">
+      <div>
+      <h1><strong><center>Калькулятор</center></strong></h1>
+      <h1><strong><center>Alex-Alen Pugatsov (TA-21V)</center></strong></h1>
+      </div> 
+
+
+      <div style="position: relative;">
+        <section class="container pt-5">
+          <section class="mb-10">
+            <h5 class="fw-bold text-center mb-5"></h5>
+            <div class="row mb-4">
+              <div class="col-2"> <img src="vscode.PNG" class="img-fluid"></div>
+              <div class="col-10">
+                <p class="mb-2"><strong>Visual Studio Code</strong></p>
+                <p>Visual Studio Code — редактор исходного кода,
+                  разработанный Microsoft для Windows, Linux и macOS.
+                  Позиционируется как «лёгкий» редактор кода для кроссплатформенной разработки веб- и облачных приложений.
+                  Использовался для написания кода.</p>
+              </div>
+            </div>
+          </section>
+        </section>
+
+
+
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+
+
+
+
+
+
+      <div class="center-fluid col-12 col-md-12 col-lg-12 col-xl-12">
+        <center><h1><strong>Домашнее задание</strong></h1></center>
+        <center><h2>
+
+          <div class="col-10">
+            <p>Доделать алгоритм работы калькулятора.</p>
+          </div>
+
+        </h2></center>
+
+
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+        <center><h1><strong>Снимки задания</strong></h1></center>
+
+        <center>
+        <div class="center-fluid col-6 col-md-6 col-lg-6 col-xl-5">
+          <img src="1.PNG" border="2" style="max-width: 90%;"/>
+        </div>
+        </center>
+
+        <p>&nbsp;</p>
+
+        <center>
+          <style>
+            .ProjectGallery{height:600px; overflow:scroll; width: 95%;} 
+            .ProjectGallery img{float:center; width: 70%;}
+          </style>
+          <div class="ProjectGallery">
+            <img src="pic1.png"/>
+          </div>
+        </center>
+
+
+
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+
+
+      <h1><strong><center>Код программы</center></strong></h1>
+
+
+    <div class="accordion" id="accordionExample" >
+      <div class="accordion-item col-12 col-md-12 col-lg-12 col-xl-12 center-fluid">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Код программы
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+
+<div class="col-10"></div>
+            <pre>
+            <code class="html">
+<xmp>
+<script>
+  function sqrt(){
+    nSqrt = Math.sqrt(form1.answer.value);
+    return nSqrt
+  }
+  
+</script>
+
+
+<form name = "form1">
+
+  <input id = "calc" type ="text" name = "answer">
+  <br>
+  <input type="button" value="1" onclick="form1.answer.value += '1' ">
+  <input type="button" value="2" onclick="form1.answer.value += '2' ">
+  <input type="button" value="3" onclick="form1.answer.value += '3' ">
+  <input type="button" value="+" onclick="form1.answer.value += '+' ">
+  <br>
+  <input type="button" value="4" onclick="form1.answer.value += '4' ">
+  <input type="button" value="5" onclick="form1.answer.value += '5' ">
+  <input type="button" value="6" onclick="form1.answer.value += '6' ">
+  <input type="button" value="-" onclick="form1.answer.value += '-' ">
+  <br>
+  <input type="button" value="7" onclick="form1.answer.value += '7' ">
+  <input type="button" value="8" onclick="form1.answer.value += '8' ">
+  <input type="button" value="9" onclick="form1.answer.value += '9' ">
+  <input type="button" value="*" onclick="form1.answer.value += '*' ">
+  <br>
+  <input type="button" value="/" onclick="form1.answer.value += '/' ">
+  <input type="button" value="0" onclick="form1.answer.value += '0' ">
+  <input type="button" value="=" onclick="form1.answer.value = eval(form1.answer.value)">
+  <input type="button" value="^" onclick="form1.answer.value += '**' ">
+  <br> 
+  <input type="button" value="%" onclick="form1.answer.value += '%' ">
+  <input type="button" value="√" onclick='form1.answer.value = sqrt()'>
+  <input type = "button" value = "очистить" onclick="form1.answer.value ='' "id= "clear" >
+  
+</form>
+</xmp>        
+
+              </code>
+            </pre>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p>&nbsp;</p>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<script language = "javascript" src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
